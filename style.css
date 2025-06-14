@@ -30,6 +30,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 1px 1px 4px;
 }
 
 .powered {
@@ -54,7 +55,7 @@ body {
 
 .yellow {
     font-family: serif;
-    color: rgb(245, 245, 21);
+    color: #fbbc05;
     font-size: 22px;
     font-weight: bold;
     text-shadow: 0.5px 0.5px 1px;
@@ -265,7 +266,7 @@ main section img {
 }
 
 .sec-two article:hover {
-    transform: scale(1.1);
+    transform: translateY(-10px);
     border: none;
 }
 
@@ -417,5 +418,5 @@ main section img {
 }
 
 .article-four-icons img:hover {
-    transform: translateY(-5px);
+    transform: translateY(-7px);
 }
